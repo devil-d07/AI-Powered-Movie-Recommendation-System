@@ -1,20 +1,22 @@
 # AI-Powered Movie Recommendation System
 
-A simple end-to-end Python project that builds a collaborative filtering recommender using the MovieLens dataset and exposes an interactive Streamlit dashboard.
+A polished Streamlit application that uses the MovieLens dataset to deliver personalized movie recommendations with a professional landing page and analytics dashboard.
 
 ## Features
 
-- Collaborative filtering based on MovieLens ratings
-- Personalized movie recommendations for sample users
-- Streamlit dashboard with dataset metrics and popular movie insights
-- Automatic dataset download and preprocessing
+- AI-style collaborative filtering recommendations for sample MovieLens users
+- Modern landing page and dashboard layout
+- Search movies by title with average rating and review count
+- Personalized user profile panel with rated movie summary
+- Popular and top-rated movie insights
+- Footer branding by `M Deepan vel`
 
 ## Project structure
 
-- `app.py` - Streamlit dashboard entry point
-- `src/data_loader.py` - dataset download and loading utilities
-- `src/recommender.py` - recommendation engine and ranking logic
-- `requirements.txt` - project dependencies
+- `app.py` - Streamlit dashboard entry point and UI layout
+- `src/data_loader.py` - MovieLens download and dataset loader
+- `src/recommender.py` - recommendation engine and scoring logic
+- `requirements.txt` - Python dependencies
 - `.gitignore` - ignored files for local development
 
 ## Setup
@@ -40,11 +42,13 @@ streamlit run app.py
 
 ## Usage
 
-- Use the sidebar to select a `User ID` from the MovieLens dataset.
-- Adjust the number of recommendations.
-- View popular movies and personalized suggestions in the dashboard.
+- Select a user from the sidebar to generate personalized suggestions.
+- Use the recommendation count slider to control how many movies appear.
+- Search movie titles to explore ratings and genres.
+- Review popular and high-rated movie sections for dataset insights.
 
 ## Notes
 
-- The project downloads the MovieLens `ml-latest-small` dataset automatically into `data/`.
-- If you want to refresh the dataset, delete `data/ml-latest-small/` and rerun the app.
+- The dataset downloads automatically into `data/ml-latest-small/`.
+- Delete `data/ml-latest-small/` to force a fresh download.
+- The app is designed to run locally with `streamlit run app.py`.
