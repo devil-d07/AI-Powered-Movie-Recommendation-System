@@ -2,6 +2,9 @@
 
 A polished Streamlit application that uses the MovieLens dataset to deliver personalized movie recommendations with a professional landing page and analytics dashboard.
 
+<img width="1890" height="892" alt="image" src="https://github.com/user-attachments/assets/e83351a3-35c5-4618-ae3e-f166497e5ca3" />
+
+
 ## Features
 
 - AI-style collaborative filtering recommendations for sample MovieLens users
